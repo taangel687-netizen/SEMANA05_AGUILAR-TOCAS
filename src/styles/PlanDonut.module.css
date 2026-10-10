@@ -1,0 +1,9 @@
+.wrap { display: flex; flex-direction: column; align-items: center; gap: 1.25rem; }
+.donut { width: 170px; height: 170px; border-radius: 50%; display: grid; place-items: center; }
+.hole { width: 108px; height: 108px; border-radius: 50%; background: #fff; display: flex; flex-direction: column; align-items: center; justify-content: center; }
+.hole strong { font-size: 1.4rem; color: #0f172a; }
+.hole span { font-size: 0.7rem; color: #64748b; }
+.legend { list-style: none; margin: 0; padding: 0; font-size: 0.85rem; color: #334155; display: flex; flex-direction: column; gap: 0.4rem; width: 100%; }
+.legend li { display: flex; align-items: center; gap: 0.5rem; }
+.legend b { margin-left: auto; }
+.dot { width: 10px; height: 10px; border-radius: 50%; }

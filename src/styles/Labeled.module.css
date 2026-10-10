@@ -1,0 +1,4 @@
+.box { position: relative; border-radius: 8px; outline: 2px dashed var(--c); outline-offset: 4px; }
+.label { position: absolute; top: -14px; left: 8px; z-index: 5; background: var(--c); color: #fff; font: 700 10px ui-monospace, monospace; padding: 2px 6px; border-radius: 4px; white-space: nowrap; }
+.tip { display: none; position: absolute; top: 12px; left: 8px; z-index: 30; background: #0f172a; color: #e2e8f0; font: 11px/1.5 ui-monospace, monospace; padding: 8px 10px; border-radius: 6px; box-shadow: 0 6px 20px rgba(0,0,0,.35); pointer-events: none; max-width: 280px; }
+.box:hover:not(:has(.box:hover)) > .tip { display: block; }

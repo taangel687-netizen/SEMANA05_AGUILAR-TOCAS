@@ -1,0 +1,6 @@
+.card { display: flex; flex-direction: column; gap: 0.35rem; padding: 1rem 1.1rem; border-radius: 10px; background: #fff; border-top: 4px solid #0ea5e9; box-shadow: 0 2px 8px rgba(0,0,0,0.08); transition: transform 0.15s; }
+.card:hover { transform: translateY(-2px); }
+.top { display: flex; justify-content: space-between; align-items: center; }
+.title { font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.04em; color: #64748b; }
+.icon { font-size: 1.25rem; }
+.value { font-size: 1.9rem; }

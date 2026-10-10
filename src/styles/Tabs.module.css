@@ -1,0 +1,4 @@
+.nav { display: flex; gap: 0.5rem; background: #1e293b; padding: 0.6rem 2rem; position: sticky; top: 0; z-index: 10; overflow-x: auto; }
+.tab { border: 0; background: transparent; color: #cbd5e1; padding: 0.55rem 1rem; border-radius: 8px; font-size: 0.95rem; cursor: pointer; white-space: nowrap; }
+.tab:hover { background: #334155; }
+.active { background: #0ea5e9; color: #fff; font-weight: 600; }
